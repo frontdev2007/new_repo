@@ -1,0 +1,362 @@
+* {
+  font-family: 'Futura Cyrillic';
+  margin: 0;
+  padding: 0;
+  scroll-padding-top: 1rem;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: bold;
+  src: url(./fonts/Roboto-Bold.ttf);
+  font-weight: 900;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.containr {
+  height: 1150px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+  background-color: #1E1E1E;
+}
+
+.content {
+  max-width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#home {
+  color: #FF3C78;
+}
+
+#pricing, #about, #blog, #contact {
+  color: #fff;
+}
+
+#login {
+  text-decoration: none;
+  text-transform: none;
+  color: #fff;
+  width: 56px;
+  height: 40px;
+  top: 27px;
+  left: 1036px;
+  padding-right: 62px;
+  gap: 8px;
+}
+
+.login_btn {
+  width: 116px;
+  height: 48px;
+  top: 23px;
+  left: 1124px;
+  border-radius: 16px;
+  padding: 8px 22px;
+  grid-gap: 8px;
+  background-color: #FF3C78;
+  border: 1px solid  #FF3C78;
+  color: #fff;
+}
+
+.hero-info {
+  background-color: #1E1E1E;
+  height: auto;
+}
+
+.hero-info .heading {
+  top: 80px;
+  position: relative;
+}
+
+.hero-info .heading h1 {
+  color: #fff;
+  font-weight: 900;
+  font-family: bold;
+  font-size: 74px;
+}
+
+.hero-info .heading h1 span {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 81px;
+  letter-spacing: -4.2%;
+}
+
+.info {
+  top: 190px;
+  position: relative;
+}
+
+.info h4 {
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.info .info_btn {
+  color: #fff;
+  width: 178px;
+  height: 48px;
+  background-color: #FF3C78;
+  border: 1px solid #FF3C78;
+  top: 35px;
+  border-radius: 14px;
+  padding: 12px, 16px, 12px, 32px;
+  position: relative;
+}
+
+.info .info_btn i {
+  padding-left: 5px;
+  font-size: 15px;
+}
+
+.info-img img {
+  width: 1040px;
+  height: 474px;
+  top: 190px;
+  border-radius: 16px;
+  position: relative;
+}
+
+.info-card .rectangle {
+  width: 246px;
+  height: 238px;
+  background-color: #fff;
+  border-radius: 14px;
+  bottom: 150px;
+  left: 700px;
+  position: relative;
+}
+
+.info-card .rectangle .ellipse {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #FF3C78;
+  top: -22px;
+  left: 100px;
+  position: absolute;
+}
+
+.info-card .rectangle .ellipse i {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.info-card .rectangle h5 {
+  text-align: center;
+  top: 45px;
+  font-size: 45px;
+  font-weight: 900;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: relative;
+}
+
+.info-card .rectangle .group0 {
+  width: 173px;
+  height: 12px;
+  border-radius: 8px;
+  background-color: #c7c4c4;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  left: 36.5px;
+  top: 60px;
+  position: relative;
+}
+
+.info-card .rectangle .group1 {
+  width: 142px;
+  height: 7.3px;
+  border-radius: 8px;
+  background-color: #c7c4c4;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  left: 52px;
+  top: 75px;
+  position: relative;
+}
+
+.info-card .rectangle .rectangle2 {
+  width: 196px;
+  height: 42px;
+  top: 95px;
+  left: 25px;
+  border-radius: 88px;
+  background-color: #59D7C9;
+  position: relative;
+}
+
+.containr_2 {
+  height: 590px;
+  background-color: #F9F5F2;
+  top: 96px;
+  position: relative;
+}
+
+.containr_2 .content-2 {
+  max-width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containr_2 .image {
+  padding-top: 30px;
+  left: -20px;
+  position: relative;
+}
+
+.containr_2 .discover {
+  padding-top: 80px;
+  left: -80px;
+  position: relative;
+}
+
+.containr_2 .discover h3 {
+  font-size: 35px;
+  font-family: Roboto;
+  font-weight: 800;
+}
+
+.containr_2 .discover .dis_h5 {
+  font-family: Roboto;
+  font-weight: 550;
+  font-size: 14px;
+  top: 30px;
+  position: relative;
+}
+
+.containr_2 .discover .discover_btn {
+  width: 160px;
+  height: 48px;
+  top: 60px;
+  border-radius: 16px;
+  padding: 12px 24px;
+  background-color: #2241CF;
+  border: 1px solid #2241CF;
+  color: #fff;
+  position: relative;
+}
+
+.containr_2 .discover .discover_h5 {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 14px;
+  top: 100px;
+  position: relative;
+}
+
+.containr_2 .discover .profile {
+  top: 135px;
+  position: relative;
+}
+
+.containr_3 {
+  height: 590px;
+  background-color: #fff;
+  top: 192px;
+  position: relative;
+}
+
+.containr_3 .content_3 {
+  max-width: 1040px;
+  border-radius: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containr_3 .content_3 .shere_content h3 {
+  font-size: 35px;
+  font-family: Roboto;
+  font-weight: 800;
+}
+
+.containr_3 .content_3 .shere_content h5 {
+  font-family: Roboto;
+  font-weight: 570;
+  font-size: 14px;
+  top: 30px;
+  position: relative;
+}
+
+.containr_3 .content_3 .shere_content .shere_btn {
+  width: 160px;
+  height: 48px;
+  top: 60px;
+  border-radius: 16px;
+  padding: 12px 24px;
+  background-color: #2241CF;
+  border: 1px solid #2241CF;
+  color: #fff;
+  position: relative;
+}
+
+.containr_3 .content_3 .share_retangel {
+  width: 377px;
+  height: 444px;
+  background-color: #F9F5F2;
+  left: 32px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.containr_3 .content_3 .share_retangel #sharecol1 {
+  width: 159px;
+  height: 194px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 20px 10px 10px 30px;
+}
+
+.containr_3 .content_3 .share_retangel #sharecol2 {
+  width: 159px;
+  height: 194px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 20px 30px 10px 10px;
+}
+
+.containr_3 .content_3 .share_retangel #sharecol3 {
+  width: 159px;
+  height: 194px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 10px 10px 20px 30px;
+}
+
+.containr_3 .content_3 .share_retangel #sharecol4 {
+  width: 159px;
+  height: 194px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 10px 20px 20px 10px;
+}
+/*# sourceMappingURL=style.css.map */
